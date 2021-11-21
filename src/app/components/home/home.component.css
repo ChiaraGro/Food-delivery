@@ -5,3 +5,17 @@ background-position: center ;
 background-size: cover;
 
 }
+
+.stepBox{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.stepBox h1{
+  color: green;
+}
+
+.stepBox p{
+  color: white;
+}
