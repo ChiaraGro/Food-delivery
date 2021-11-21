@@ -30,21 +30,21 @@ export class OrderDetailsService {
     {
       id:4,
       foodName:"Tiramisu",
-      foodDetails:"A homely mix of mashed potato and veggies, seasoned with Indian spices. A filling sure to take you back to mom's kitchen.",
+      foodDetails:"Tiramisù classico",
       foodPrice:6.5,
       foodImg:"https://images.unsplash.com/photo-1586040140378-b5634cb4c8fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGlyYW1pc3V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     },
     {
       id:5,
-      foodName:"Indulgence Brownie",
-      foodDetails:"(Eggless) Indulge in richly decadent chocolate brownie crafted with love & topped with bitter-sweet chocolate that provides ultra-rich chocolate experience.",
+      foodName:"Brownie al cioccolato fondente",
+      foodDetails:"Brownie con salsa al cioccolato fondente",
       foodPrice:4,
       foodImg:"https://images.unsplash.com/photo-1630384057168-b537be58939c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YnJvd25pZXxlbnwwfHwwfGJsYWNrfA%3D%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
       id:6,
       foodName:"Cheescake",
-      foodDetails:"Oreo ice cream",
+      foodDetails:"Cheescake con topping ai frutti rossi",
       foodPrice:5.5,
       foodImg:"https://images.unsplash.com/photo-1524351199678-941a58a3df50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hlZXNlY2FrZXxlbnwwfHwwfGJsYWNrfA%3D%3D&auto=format&fit=crop&w=500&q=60"
     }
