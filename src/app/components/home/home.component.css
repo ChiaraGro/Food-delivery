@@ -3,7 +3,16 @@ background-image: url(../../../assets/bg.jpg);
 height: 700px;
 background-position: center ;
 background-size: cover;
+}
 
+.banner h1{
+  margin-right: 200px;
+  font-size: 90px;
+  line-height: 1.6;
+}
+
+.banner a{
+  margin-right: 220px;
 }
 
 .stepBox{
