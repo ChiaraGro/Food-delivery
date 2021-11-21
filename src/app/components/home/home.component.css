@@ -1,4 +1,7 @@
-.banner {
-background-image: url(/food-delivery/src/assets/bg.jpg);
-height: 70vh;
+.banner{
+background-image: url(../../../assets/bg.jpg);
+height: 700px;
+background-position: center ;
+background-size: cover;
+
 }
