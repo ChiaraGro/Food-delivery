@@ -42,9 +42,9 @@
 <div class="row">
   <div class="col-lg-3" *ngFor="let food of foodData; index as i">
     <div class="foodbox" *ngIf="i <= 3">
-      <img src="{{food.foodImg}}" alt="" >
-      <h3>{{food.foodName}}</h3>
-      <p>{{food.foodPrice |currency: 'EUR'}}</p>
+      <img src="{{food.imgUrl}}" alt="" >
+      <h3>{{food.name}}</h3>
+      <p>{{food.price |currency: 'EUR'}}</p>
     </div>
   </div>
 </div>
