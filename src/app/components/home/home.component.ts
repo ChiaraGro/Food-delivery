@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OrderDetailsService } from 'src/app/services/order-details.service';
+import { IProduct } from 'src/app/shared/product';
 
 @Component({
   selector: 'app-home',
@@ -9,10 +10,10 @@ import { OrderDetailsService } from 'src/app/services/order-details.service';
 export class HomeComponent implements OnInit {
 
   constructor(private service:OrderDetailsService) { }
-  foodData:any;
+  foods: IProduct[] = [];
 
   ngOnInit(): void {
-    this.foodData = this.service.foodDetails;
+    this.foods = this.service.foodList;
   }
 
 }

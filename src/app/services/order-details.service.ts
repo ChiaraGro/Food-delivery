@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
+import { IProduct } from '../shared/product';
 
 @Injectable({
   providedIn: 'root'
 })
 export class OrderDetailsService {
 
-  foodDetails = [
+  foodList: IProduct[] = [
     {
       id:1,
       name:"Salmon Bowl",
@@ -37,7 +38,7 @@ export class OrderDetailsService {
     {
       id:5,
       name:"Brownie al cioccolato fondente",
-      foodDetails:"Brownie con salsa al cioccolato fondente",
+      details:"Brownie con salsa al cioccolato fondente",
       price:4,
       imgUrl:"https://images.unsplash.com/photo-1630384057168-b537be58939c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YnJvd25pZXxlbnwwfHwwfGJsYWNrfA%3D%3D&auto=format&fit=crop&w=500&q=60"
     },
@@ -51,5 +52,4 @@ export class OrderDetailsService {
   ]
 
 
-  constructor() { }
 }
