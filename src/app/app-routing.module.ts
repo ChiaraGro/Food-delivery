@@ -1,3 +1,4 @@
+import { NotFoundComponent } from './shared/not-found/not-found.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
@@ -9,7 +10,8 @@ const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'menu', component: MenuComponent},
   {path: 'about', component:AboutComponent},
-  {path: 'contacts', component: ContactsComponent}
+  {path: 'contacts', component: ContactsComponent},
+  {path: '**', component: NotFoundComponent}
 ];
 
 @NgModule({
